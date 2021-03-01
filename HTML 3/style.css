@@ -1,0 +1,30 @@
+header{
+    background-image: url("img2.png") ;
+	height: 100px;
+}
+footer{
+	background-color: blue;
+}
+body{
+    background-color: #376361;
+}
+menu{
+    margin: 150px;
+    flex-direction: row-reverse;
+}
+.p{
+    padding: 50px;
+    font-size: larger;
+    color: white;
+}
+.active{
+    background-color: red;
+    
+}
+.vertical-menu{
+    flex-direction: column;
+    align-items: flex-end;
+}
+a.active > a {
+    color: black;
+}
